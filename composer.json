@@ -2,6 +2,14 @@
 
 	"require": {
 	  "ext-mbstring": "*"
+	},
+
+	"scripts": {
+	  "compile": [
+		"php bin/grav install",
+		"php bin/gpm install admin -y",
+		"php bin/gpm install antimatter -y"
+	  ]
 	}
 
 }
